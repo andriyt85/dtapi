@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8d42788e-01e6-40b3-b7c4-02ec71c80731" name="dtapi" url="http://dtapi.local">
+        <fileTransfer host="dtapi.local" port="22" accessType="SFTP" password="df9bdfdbdfcbdfd0df98dfdddfd9dfd2" username="pupkin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

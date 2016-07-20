@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div ui-view>
+    <form id="logForm" ng-submit="login.enter()">
+        <fieldset style="width: 30%; margin: 0 auto;">
+            <legend><strong>Please enter your login and password</strong></legend>
+            <label><strong>Login</strong><br/></label>
+            <input type="text" id="login" name="name" size="30" ng-model="login.user.username" autofocus required/><br/><br/>
+            <label><strong>Password</strong></label><br/>
+            <input type="password" id="password" name="password" ng-model="login.user.password" size="30" required/><br/><br/>
+            <input type="submit" value="OK">
+        </fieldset>
+    </form>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="Authent/app.js"></script>
+<script src="Authent/Login.controller.js"></script>
+<script src="Authent/Authentification.service.js"></script>
+<script src="js/angular-ui-router.min.js"></script>
+</body>
+</html>
+
+
+
